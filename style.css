@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+}
+body {
+    background-image:url(underwattar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign {
+    margin-right: 45px;
+    background: none;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color:rgb(6, 223, 223);
+}
+
+
+.search {
+
+    padding: 15px 35px;
+    background-color: aqua;
+    border-radius: 15px;
+    border: none;
+    margin-left: 15px;
+}
+
+.searchbar {
+    width: 320px;
+    padding: 20px 200px;
+    background: none;
+    border-bottom: 3px;
+    border-color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+::placeholder {
+    font-size: 18px;
+    color: white;
+}
+
+nav { 
+    text-align: right;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 45px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-size: 55px;
+    padding-top: 150px ;
+    color: white;
+}
